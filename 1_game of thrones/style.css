@@ -1,0 +1,212 @@
+/* Ime Prezime Indeks */
+
+body{
+    height: 800px;
+}
+#main{
+    background-image: url("img/cover.png");
+}
+p{
+    color: gray;
+}
+#container{
+    background-image: url("img/cover.png");
+}
+#div-top{
+    background-image: url("img/cover_top.png");
+    position: relative;
+    top: -22px;
+    right: 8px;
+    background-repeat: no-repeat;
+}
+#div-top header{
+    position: relative;
+    top: 10px;
+}
+#div-top header h1{
+    background-image: url("img/game-of-thrones.jpg");
+    background-repeat: no-repeat;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    height: 71px;
+    position: relative;
+    left: 40px;
+    top: 30px;
+}
+#div-top header h2{
+    background-image: url("img/ice-and-fire.jpg");
+    background-repeat: no-repeat;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    height: 71px;
+    position: relative;
+    left: 40px;
+    top: 30px;
+}
+#div-summary p:nth-of-type(1){
+    position: relative;
+    top: -140px;
+    left: 410px;
+    width: 16%;
+}
+#div-summary p:nth-of-type(2)
+{
+    background-image: url("img/bookmark.jpg");
+    background-repeat: no-repeat;
+    height: 131px;
+    width: 5%;
+    position: relative;
+    left: 660px;
+    top: -293px;
+    color: white;
+    padding-left: 10px;
+}
+#div-summary p:nth-of-type(2) a{
+    color: white;
+}
+#div-introduction{
+    background-image: url("img/img_1.jpg");
+    background-repeat: no-repeat;
+    position: relative;
+    left: 50px;
+    top: -180px;
+}
+#div-introduction h3{
+    background-image: url("img/introduction.png");
+    background-repeat: no-repeat;
+    height: 44px;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    left: 120px;
+    top: -60px;
+}
+#div-introduction p{
+    width: 23%;
+    position: relative;
+    left: 350px;
+    top: -110px;
+}
+#div-about{
+    background-image: url("img/img_2.jpg");
+    background-repeat: no-repeat;
+    position: relative;
+    left: 390px;
+    top: -200px;
+}
+#div-about h3{
+    background-image: url("img/about.png");
+    background-repeat: no-repeat;
+    height: 45px;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    top: -50px;
+    left: 20px;
+}
+#div-about p{
+    width: 23%;
+    position: relative;
+    left: -370px;
+    top: -120px;
+    text-align: right;
+}
+#div-people{
+    background-image: url("img/img_3.jpg");
+    background-repeat: no-repeat;
+    height: 213px;
+    position: relative;
+    top: -260px;
+    left: 30px;
+}
+#div-people h3{
+    background-image: url("img/people.png");
+    background-repeat: no-repeat;
+    height: 45px;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    top: -45px;
+    left: 160px;
+}
+#div-people p{
+    width: 23%;
+    position: relative;
+    left: 360px;
+    top: -100px;
+}
+#div-people2 p{
+    width: 22%;
+    position: relative;
+    left: 395px;
+    top: -240px;
+}
+footer{
+    position: relative;
+    left: 450px;
+    top: -220px;
+}
+footer a{
+    text-decoration: none;
+    color: gray;
+    padding-left: 20px;
+}
+#div-most-visited h3{
+    background-image: url("img/most-visited.png");
+    background-repeat: no-repeat;
+    height: 33px;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    top: -680px;
+    left: 60px;
+}
+.navigation li{
+    list-style-image: url("img/bull.png");
+}
+.navigation ul{
+    position: relative;
+    top: -700px;
+    left: 55px;
+}
+.navigation a{
+    text-decoration: none;
+    color: gray;
+}
+#div-backstage-links{
+    background-image: url("img/notes.jpg");
+    background-repeat: no-repeat;
+    height: 249px;
+    position: relative;
+    top: -700px;
+    left: 40px;
+}
+#div-backstage-links h3{
+    background-image: url("img/backstage.png");
+    background-repeat: no-repeat;
+    height: 22px;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    top: 22px;
+    left: 13px;
+}
+#div-backstage-links li{
+    list-style: none;
+}
+#div-backstage-links a{
+    text-decoration: none;
+    color: gray;
+}
+#div-backstage-links ul{
+    position: relative;
+    top: 20px;
+}
+
